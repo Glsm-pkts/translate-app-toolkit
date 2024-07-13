@@ -74,7 +74,7 @@ const[text, setText] = useState("");
 <div className='flex-1 relative'>
   <textarea value={translateState.answer}
   disabled className='w-full min-h-[300px] max-h-[500px]
-   text-gray-200 p-[10px] text-[20px] rounded'></textarea>
+   text-gray-400 p-[10px] text-[20px] rounded'></textarea>
    {
     translateState.isLoading && ( 
    <div className='loader absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
